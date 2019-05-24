@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+   
+    padding-right: 0px;
+    padding-left: 0px;
+    
+}
+
+
+.colorbarra a{
+   /* background-color: blueviolet;*/
+
+   color: rgb(226, 43, 211);
+
+}
+.backgroundcolorbarra{
+    background-color: lightsteelblue;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(201, 20, 192, 0.5);
+}
+a {
+    color: blueviolet;
+    text-decoration: none;
+    background-color: transparent;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(201, 20, 192, 0.5);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(201, 20, 192, 0.5); 
+     font-weight: bold;
+    
+}
+
+/*PENDIENTE ESTUDIAR EL HOVER... COLOR hovercolor
+.hovercolor{
+    color:green;
+
+}*/
+
+footer{
+    background-color: lightsteelblue;
+}
+
+footer h3{
+    color: rgba(201, 20, 192, 0.5);
+}
+/*No me funciona: es para quitar los puntos*/
+footer li a{
+    text-decoration: none;
+}
+
+footer img{
+    width: 75%;
+    padding-bottom: 14px;
+    border-radius: 25%;
+
+}
+
+
+

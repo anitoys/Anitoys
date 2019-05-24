@@ -16,5 +16,6 @@
     <body>
         <a href="/10_Web_Registro/altaProducto.jsp">Cargar</a>
         <a href="">Modificar</a>
+        <p>prueba si funciona</p>
     </body>
 </html>

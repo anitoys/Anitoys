@@ -14,20 +14,20 @@ public class ValidadorAdminServlet extends HttpServlet {
         String usuario = request.getParameter("usuario");
         String password = request.getParameter("password");
         //Procesado de datos
-        Administrador admin = new Administrador (usuario, password);
+        Administrador admin = new Administrador(usuario, password);
         try {
             ValidarAdministrador va = new ValidarAdministrador();
             boolean correcto = va.validarAdmin(admin);
             if (correcto == true) {
                 //Usuario correcto
                 System.out.println("Correcto");
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/AccesoAdmin.jsp");
-            dispatcher.forward(request, response);
+                RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/AccesoAdmin.jsp");
+                dispatcher.forward(request, response);
             } else {
                 //Usuario incorrecto 
                 System.out.println("Incorrecto");
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/IngresoAdmin.jsp");
-            dispatcher.forward(request, response);    
+                RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/IngresoAdmin.jsp");
+                dispatcher.forward(request, response);
             }
         } catch (Exception e) {
             //Error

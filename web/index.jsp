@@ -59,47 +59,39 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false">
-                                Sobre nosotros
+                                Anitoys 
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="#">Localizacion</a>
                                 <a class="dropdown-item" href="#">Contacto</a>
-                                <a class="dropdown-item" href="#">Registro</a>
+                                <a class="dropdown-item" href="#">Administrador</a>
                     </ul>
                 </div>
         </div>
-
-        <div class="pt-3">
+                
+                <!--carrusel-->
+                
+                 <div class="pt-3">
             <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="imagenes/img_index/carrusel/ perros.jpg" class="d-block w-100" alt="...">
+                        <img src="imagenes/img_index/carruselPerros.jpg" class="d-block w-100"data-interval="100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="imagenes/img_index/carruselgatos.jpg" class="d-block w-100" alt="...">
+                        <img src="imagenes/img_index/carruselgatos1.jpg" class="d-block w-100" data-interval="100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="imagenes/img_index/carruselgatos1.jpg" class="d-block w-100" alt="...">
+                        <img src="imagenes/img_index/pajaro2.jpg" class="d-block w-100"  data-interval="100" alt="...">
                     </div>
-
                     <div class="carousel-item">
-                        <img src="imagenes/img_index/carruselpajaros.jpg" class="d-block w-100" alt="...">
+                        <img src="imagenes/img_index/carruselpeces1.jpg" class="d-block w-100"  data-interval="100"  alt="...">
                     </div> 
-
-                    <div class="carousel-item">
-                        <img src="imagenes/img_index/carruselpeces.jpg" class="d-block w-100" alt="...">
-                    </div> 
-
-                    <div class="carousel-item">
-                        <img src="imagenes/img_index/carruselpeces1.jpg" class="d-block w-100" alt="...">
-                    </div> 
-
-
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -110,6 +102,47 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+                
+<!--
+        <div class="pt-3">
+            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagenes/img_index/carruselPerros.jpg" class="d-block w-100 " data-interval="100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                   <!--     <img src="imagenes/img_index/carruselgatos.jpg" class="d-block w-100" h-80 alt="...">
+                    </div>-->
+                <!--    <div class="carousel-item">
+                        <img src="imagenes/img_index/carruselgatos1.jpg" class="d-block w-100"  data-interval="100"  alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="imagenes/img_index/pajaro2.jpg" class="d-block w-100"  data-interval="100"  alt="...">
+                    </div>                  
+
+                    <div class="carousel-item">
+                        <img src="imagenes/img_index/carruselpeces1.jpg" class="d-block w-100"  data-interval="100"  alt="...">
+                    </div> -->
+
+
+              <!--  </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>  -->
 
             <!-- LAS CARS -->
             <div class="container-fluid">

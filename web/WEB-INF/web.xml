@@ -16,6 +16,10 @@
         <servlet-name>ProductoServlet</servlet-name>
         <servlet-class>tk.anitoys.registrador.ProductoServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SeleccionFamiliaServlet</servlet-name>
+        <servlet-class>tk.anitoys.registrador.SeleccionFamiliaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ValidadorAdminServlet</servlet-name>
         <url-pattern>/ValidadorAdminServlet</url-pattern>
@@ -31,6 +35,10 @@
     <servlet-mapping>
         <servlet-name>ProductoServlet</servlet-name>
         <url-pattern>/ProductoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SeleccionFamiliaServlet</servlet-name>
+        <url-pattern>/SeleccionFamiliaServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

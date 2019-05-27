@@ -15,7 +15,7 @@
     </head>
     <body>
         <section id="contenedor">
-            <h2>Formulario de registro clientes</h2>  
+            <h2>REGISTRO DE CLIENTES</h2>  
             <form action="RegistradorServlet" method="GET" id="formulario">
                <input type="text" name="nombre" placeholder="Nombre" required><br>
                <input type="text" name="apellido" id="apellido" placeholder="apellido" required><br>

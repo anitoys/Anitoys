@@ -25,7 +25,8 @@
                         <p><strong><%=producto.getString("Nombre")%></strong></p>
                         <p class="card-text"><%=producto.getString("Descripcion")%></p>
                         <p class="card-text">Precio: <%=producto.getInt("Precio")%>€</p>
-                        <input type="button" class="comprar" value="Comprar">
+                        <input type="button" class="comprar" value="Comprar"><a href="" img src="" ></a>
+                        
                     </div>
                 </div> 
                 </div>

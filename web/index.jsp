@@ -71,16 +71,16 @@
 
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Perro</a>
+                            <a class="nav-link" href="SeleccionFamiliaServlet?id_familia=1">Perro</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gatos</a>
+                            <a class="nav-link" href="SeleccionFamiliaServlet?id_familia=2">Gatos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Peces</a>
+                            <a class="nav-link" href="SeleccionFamiliaServlet?id_familia=3">Peces</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pajaros</a>
+                            <a class="nav-link" href="SeleccionFamiliaServlet?id_familia=4">Pajaros</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -91,7 +91,7 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="#">Localizacion</a>
                                 <a class="dropdown-item" href="#">Contacto</a>
-                                <a class="dropdown-item" href="#">Administrador</a>
+                                <a class="dropdown-item" href="IngresoAdmin.jsp">Administrador</a>
                     </ul>
                 </div>
         </div>

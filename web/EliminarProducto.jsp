@@ -25,7 +25,7 @@
                     <p><strong><%=producto.getString("Nombre")%></strong></p>
                     <p class="card-text"><%=producto.getString("Descripcion")%></p>
                     <p class="card-text">Precio: <%=producto.getInt("Precio")%>€</p>
-                    <a href="ConsultaProductosParaBorrarServelt?id_producto=<%=producto.getInt("id")%>">Borrar</a>
+                    <a href="BorradoProductosServlet?id_producto=<%=producto.getInt("id_producto")%>">Borrar</a>
                     </div>
                 </div> 
             </div>

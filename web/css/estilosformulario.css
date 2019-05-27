@@ -43,7 +43,7 @@ input[type="checkbox"]{
 width: 10%;
 font-family: 'Roboto Slab', serif;
 }
-button [type="submit"]{
+#boton{
     background-color: lightgreen;
     margin: 10px 0;
     color:seagreen;
@@ -54,7 +54,7 @@ button [type="submit"]{
     cursor: pointer;
     font-size: 16px;
 }
- button [type="submit"]:hover{
+ #boton:hover{
     background-color: beige;
     color: seagreen;
     border:2px solid lightgreen;

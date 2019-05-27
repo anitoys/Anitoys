@@ -22,8 +22,8 @@
                <input type="email" name="email" id="email" placeholder="Correo electronico" value="gsdjfbj@gmail.com"><br>
                <input type="text" name="direccion" id="direccion" placeholder="direccion" value="C/Povedilla"><br>
                <input type="password" name="password" placeholder="Contraseña" required><br>
-                <div><input type="checkbox" name="politica" id=""required>Acepto la politica de privacidad</div>
-                <button type="submit">Registrar</button>
+               <div><input type="checkbox" name="politica" id=""required>Acepto la politica de privacidad</div>
+               <input type="submit" id="boton" value="Registrar">
             </form>
         </section>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

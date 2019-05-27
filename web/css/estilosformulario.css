@@ -27,7 +27,7 @@ body{
     width: 90%;
     padding: 20px;
 }
-input[type="text"], input[type="email"], input[type="password"]{
+input[type="text"], input[type="email"], input[type="password"], input[type="file"],input[type="number"], #familia, #categoria{
     width:90%;
     font-family: 'Roboto Slab', serif;
     font-size: 16px;
@@ -43,7 +43,7 @@ input[type="checkbox"]{
 width: 10%;
 font-family: 'Roboto Slab', serif;
 }
-button [type="submit"]{
+#boton{
     background-color: lightgreen;
     margin: 10px 0;
     color:seagreen;
@@ -54,7 +54,7 @@ button [type="submit"]{
     cursor: pointer;
     font-size: 16px;
 }
- button [type="submit"]:hover{
+ #boton:hover{
     background-color: beige;
     color: seagreen;
     border:2px solid lightgreen;

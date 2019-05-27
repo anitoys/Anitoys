@@ -10,7 +10,7 @@ public class GestorProductos extends GestorBBDD{
     super();
     }
     public void deleteProducto(int id) throws SQLException{
-        String sql = "DELETE FROM producto WHERE id=?";
+        String sql = "DELETE FROM producto WHERE id_producto=?";
         PreparedStatement ps = conexion.prepareStatement (sql);
         ps.setInt(1, id);
         ps.executeUpdate();

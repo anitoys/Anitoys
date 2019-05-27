@@ -68,6 +68,7 @@ button [type="submit"]{
     text-align: center;
     font-size: 12px;
     border-radius: 20px;
+    font-family: arial;
     }
     
     .card p{
@@ -84,3 +85,21 @@ button [type="submit"]{
      background-color: violet;
      border-radius: 25px;
 }
+.col-6{
+    background-color: beige;
+    width: 200px;  
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    font-family: arial;
+}
+.ingresoAdmin{
+    background-color: violet;
+    width: 400px;
+    text-align: center;
+}
+.container{
+    padding:100px;
+    
+}
+

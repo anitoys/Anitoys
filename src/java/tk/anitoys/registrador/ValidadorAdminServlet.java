@@ -21,12 +21,12 @@ public class ValidadorAdminServlet extends HttpServlet {
             if (correcto == true) {
                 //Usuario correcto
                 System.out.println("Correcto");
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/IngresoAdmin.jsp");
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/AccesoAdmin.jsp");
             dispatcher.forward(request, response);
             } else {
                 //Usuario incorrecto 
                 System.out.println("Incorrecto");
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Administrador.jsp");
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/IngresoAdmin.jsp");
             dispatcher.forward(request, response);    
             }
         } catch (Exception e) {

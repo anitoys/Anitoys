@@ -29,7 +29,7 @@
                 <option value="2">Comida</option> 
                 </select>  <br>
             <input type="text" name="nombreProducto" id="nombreProducto" value="" placeholder="Nombre Producto"><br>
-            <input type="number" name="precio" id="precio" value="" placeholder="precio"><br>
+            <input type="number" name="precio" id="precio" value="" placeholder="Precio"><br>
             <input type="submit"  id="boton" value="Modificar">
         </form>
 

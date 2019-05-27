@@ -20,6 +20,14 @@
         <servlet-name>SeleccionFamiliaServlet</servlet-name>
         <servlet-class>tk.anitoys.registrador.SeleccionFamiliaServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>BorradoProductosServlet</servlet-name>
+        <servlet-class>tk.anitoys.registrador.BorradoProductosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConsultaProductosParaBorrarServelt</servlet-name>
+        <servlet-class>tk.anitoys.registrador.ConsultaProductosParaBorrarServelt</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ValidadorAdminServlet</servlet-name>
         <url-pattern>/ValidadorAdminServlet</url-pattern>
@@ -39,6 +47,14 @@
     <servlet-mapping>
         <servlet-name>SeleccionFamiliaServlet</servlet-name>
         <url-pattern>/SeleccionFamiliaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BorradoProductosServlet</servlet-name>
+        <url-pattern>/BorradoProductosServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConsultaProductosParaBorrarServelt</servlet-name>
+        <url-pattern>/ConsultaProductosParaBorrarServelt</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

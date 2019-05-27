@@ -29,6 +29,33 @@
             </div>
         </div>
         <div class="container-fluid"> 
+            
+            
+        <!-- iconos cesta -->
+        <div class="container-fluid">
+                <div class="col-auto" class="logo">
+                    <img src="imagenes/img_index/logoDefinido.jpg" class="" alt="">
+                </div> 
+            <div class="row"> 
+                <div id="iconos" class="container">
+                    <div class="row">
+                        <input id="search" class="col-5" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
+                               class="input-text search-form-trigger"  width="150px" role="combobox" aria-haspopup="false" 
+                               aria-autocomplete="both" autocomplete="off"> 
+                        <div class="col-auto" class="icon">
+                            <img src="imagenes/img_index/Adminsitrar2.png" width="50px"  alt="">
+                        </div> 
+                        <div class="col-auto" class="icon">
+                            <img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt="">
+                        </div> 
+                        <div class="col-auto" class="icon">            
+                            <img src="imagenes/img_index/cesta2.png" width="50px" alt="">
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+
 
 
             <nav class="navbar navbar-expand-lg navbar-expand-md  sticky-top navbar-light colorbarra backgroundcolorbarra">

@@ -15,19 +15,37 @@
         <link rel="stylesheet" href="css/plantilla-boostrap.css">
     </head>
     <body>
-        
-          <div class="container">
-            <div class="col" class="logo">
-                <img src="imagenes/img_index/logo.png" class="" alt="">
-            </div>    
-            <div class="col">
-                <h1>Anytoys. Tu mascota, nuestro amigo</h1>
+
+
+
+        <!-- iconos cesta -->
+        <div class="container-fluid">
+                <div class="col-auto" class="logo">
+                    <img src="imagenes/img_index/logoDefinido.jpg" class="" alt="">
+                </div> 
+            <div class="row"> 
+                <div id="iconos" class="container">
+                    <div class="row">
+                        <input id="search" class="col-5" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
+                               class="input-text search-form-trigger"  width="150px" role="combobox" aria-haspopup="false" 
+                               aria-autocomplete="both" autocomplete="off"> 
+                        <div class="col-auto" class="icon">
+                            <img src="imagenes/img_index/Adminsitrar2.png" width="50px"  alt="">
+                        </div> 
+                        <div class="col-auto" class="icon">
+                            <img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt="">
+                        </div> 
+                        <div class="col-auto" class="icon">            
+                            <img src="imagenes/img_index/cesta2.png" width="50px" alt="">
+                        </div> 
+                    </div> 
+                </div>
             </div>
         </div>
-        
-        
-        
-        
+
+
+
+
         <div class="pt-3">
             <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
                 <ol class="carousel-indicators">

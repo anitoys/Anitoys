@@ -1,40 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package tk.anitoys.registrador;
 
 import java.io.IOException;
+import java.sql.ResultSet;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class ValidadorAdminServlet extends HttpServlet {
+public class ConsultaProductosParaBorrarServelt extends HttpServlet {
 
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String usuario = request.getParameter("usuario");
-        String password = request.getParameter("password");
-        //Procesado de datos
-        Administrador admin = new Administrador(usuario, password);
-        try {
-            ValidarAdministrador va = new ValidarAdministrador();
-            boolean correcto = va.validarAdmin(admin);
-            if (correcto == true) {
-                //Usuario correcto
-                System.out.println("Correcto");
-                RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/AccesoAdmin.jsp");
-                dispatcher.forward(request, response);
-            } else {
-                //Usuario incorrecto 
-                System.out.println("Incorrecto");
-                RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/IngresoAdmin.jsp");
-                dispatcher.forward(request, response);
-            }
-        } catch (Exception e) {
-            //Error
-            System.out.println("Error");
-            e.printStackTrace();
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Error.html");
+           try {
+            GestorProductos gestor = new GestorProductos();
+            ResultSet producto = gestor.getProductos();
+            //Dirige a la pagina que queremos mostrar
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/EliminarProducto.jsp");
+            request.setAttribute("datos", producto);
             dispatcher.forward(request, response);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 

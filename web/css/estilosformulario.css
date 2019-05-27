@@ -59,3 +59,28 @@ button [type="submit"]{
     color: seagreen;
     border:2px solid lightgreen;
 }
+.row{
+    float:left;
+    margin: 20px;
+}
+.card{
+    width: 200px;  
+    text-align: center;
+    font-size: 12px;
+    border-radius: 20px;
+    }
+    
+    .card p{
+        margin: 0;
+    }
+.card img{
+    width: 120px;
+    display: box;
+    margin:auto;
+}
+.comprar{
+    width: 70px;
+    height: 30px;
+     background-color: violet;
+     border-radius: 25px;
+}

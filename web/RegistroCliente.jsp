@@ -15,15 +15,15 @@
     </head>
     <body>
         <section id="contenedor">
-            <h2>Formulario de registro clientes</h2>  
+            <h2>REGISTRO DE CLIENTES</h2>  
             <form action="RegistradorServlet" method="GET" id="formulario">
                <input type="text" name="nombre" placeholder="Nombre" required><br>
                <input type="text" name="apellido" id="apellido" placeholder="apellido" required><br>
                <input type="email" name="email" id="email" placeholder="Correo electronico" value="gsdjfbj@gmail.com"><br>
                <input type="text" name="direccion" id="direccion" placeholder="direccion" value="C/Povedilla"><br>
                <input type="password" name="password" placeholder="Contraseña" required><br>
-                <div><input type="checkbox" name="politica" id=""required>Acepto la politica de privacidad</div>
-                <button type="submit">Registrar</button>
+               <div><input type="checkbox" name="politica" id=""required>Acepto la politica de privacidad</div>
+               <input type="submit" id="boton" value="Registrar">
             </form>
         </section>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -3,7 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.container{
+  fload:left;
+}
+.logo{
+    padding: 0;
+    padding-bottom: 1px;
+    
+    margin:0;
+}
 .container-fluid {
    
     padding-right: 0px;
@@ -44,6 +52,16 @@ a {
     color:green;
 
 }*/
+/*Estilo de las Card 'Ofertas'*/
+
+.text-primary{
+    color:blue;
+    font-size: 40px;
+}
+
+.card-title{
+    text-align: center;
+}
 
 footer{
     background-color: lightsteelblue;

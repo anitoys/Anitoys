@@ -16,7 +16,7 @@
             <a href="altaProducto.jsp">Subir productos</a>  
             </div>
             <div class="col-6">
-            <a href="ConsultaProductosServlet">Eliminar producto</a> 
+            <a href="ConsultaProductosParaBorrarServelt">Eliminar producto</a> 
             </div>
             </div>
             </div>

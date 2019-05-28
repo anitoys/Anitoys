@@ -3,27 +3,102 @@
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/estilosformulario.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/plantilla-boostrap.css">
+        <link rel="stylesheet" href="css/estilosformulario.css">
     </head>
     <body>
+         <div class="container-fluid">
+
+
+            <!-- iconos cesta -->
+            <div class="container-fluid">
+                <div class="col-auto" class="logo">
+                    <img src="imagenes/img_index/logoDefinido.jpg" class="" alt="">
+                </div> 
+                <div class="row"> 
+                    <div id="iconos" class="container">
+                        <div class="d-flex flex-row text-right ">
+                            <input id="search" class="col-5" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
+                                   class="input-text search-form-trigger"  width="150px" role="combobox" aria-haspopup="false" 
+                                   aria-autocomplete="both" autocomplete="off" text-right> 
+                            <div class="col-auto text-right" class="icon" >
+                                <img src="imagenes/img_index/Adminsitrar2.png" width="50px"  alt="">
+                                <p Class="colorP font-weight-bold" class="font-italic" >Adminstrador</p>
+                                <!--aqui el <a href-->
+                            </div> 
+                            <div class="col-auto text-right" class="icon">
+                                <a href="RegistradorClienteServlet"><img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt=""></a>
+                                <p class="font-italic colorP font-weight-bold" ">Mi cuenta</p>
+                            </div> 
+                            <div class="col-auto text-right" class="icon">            
+                                <img src="imagenes/img_index/cesta2.png" width="50px" alt="">
+                                <p class="font-italic colorP font-weight-bold"">Cesta</p>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+
+
+            <nav class="navbar navbar-expand-lg navbar-expand-md  sticky-top navbar-light colorbarra backgroundcolorbarra">
+                <a class="navbar-brand hovercolor" href="#">    
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo03"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarToggler">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item active text-right">
+                            <a class="nav-link font-weight-bold " href="SeleccionFamiliaServlet?id_familia=1">Perro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="SeleccionFamiliaServlet?id_familia=2">Gatos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="SeleccionFamiliaServlet?id_familia=3">Peces</a>
+                        </li>
+                        <li class="nav-item font-weight-bold">
+                            <a class="nav-link" href="SeleccionFamiliaServlet?id_familia=4">Pajaros</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">
+                                Anitoys 
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Localizacion</a>
+                                <a class="dropdown-item" href="#">Contacto</a>
+                                <a class="dropdown-item" href="IngresoAdmin.jsp">Administrador</a>
+                    </ul>
+                </div>
+        </div>
+
         <section class="fila-contacto">
-            <div>
-                <h2>Localización y horario:</h2>
-                <iframe
+            <div class="container">
+                <h2>Localización y horario:</h2><br>
+                <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.488397888752!2d-3.7061162843697137!3d40.420183063353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287d6da3df33%3A0xe119406d894c5d21!2sCalle+Gran+V%C3%ADa%2C+Madrid!5e0!3m2!1ses!2ses!4v1550234667809"
                     width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+            
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis assumenda praesentium, ex magnam vitae
-                    eaque alias, pariatur amet corrupti, iste numquam excepturi! Laboriosam amet cum perferendis, tempore ut
-                    aut error.</p>
+                <p>Calle Gran Vía 31, 28010 Madrid</p>
+                <p>Instagram: @anitoysMascotas</p>
+                <p>Telefono: 915623417</p>
+                
+            </div>
             </div>
         </section>
         <section id="contenedor">
             <h2>Formulario de contacto</h2>
-            <form id="formulario2">
+            <form class="formularioContacto">
                 <input type="text" id="nombre" placeholder="Nombre" required autofocus>
                 <input type="text" id="apellido" placeholder="Apellido" required>
                 <input type="email" id="email" placeholder="E-mail">
@@ -34,8 +109,8 @@
                 <button type="submit">Enviar</button>
             </form>
         </section>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
     </body>
 </html>

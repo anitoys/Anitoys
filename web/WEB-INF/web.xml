@@ -32,6 +32,10 @@
         <servlet-name>CestaServlet</servlet-name>
         <servlet-class>tk.anitoys.registrador.CestaServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AgregarProductoServlet</servlet-name>
+        <servlet-class>tk.anitoys.registrador.AgregarProductoServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ValidadorAdminServlet</servlet-name>
         <url-pattern>/ValidadorAdminServlet</url-pattern>
@@ -63,6 +67,10 @@
     <servlet-mapping>
         <servlet-name>CestaServlet</servlet-name>
         <url-pattern>/CestaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AgregarProductoServlet</servlet-name>
+        <url-pattern>/AgregarProductoServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

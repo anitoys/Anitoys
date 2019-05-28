@@ -51,7 +51,17 @@
                                 <p class="font-italic colorP font-weight-bold"">Cesta</p>
                             </div> 
                         </div> 
+<<<<<<< HEAD
+                        <div class="col-auto" class="icon">
+                            <a href="RegistroCliente.jsp"><img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt=""></a>
+                        </div> 
+                        <div class="col-auto" class="icon">            
+                            <img src="imagenes/img_index/cesta2.png" width="50px" alt="">
+                        </div> 
+                    </div> 
+=======
                     </div>
+>>>>>>> 38f94247b5cd648ede902d092335671a46c2a35a
                 </div>
             </div>
 

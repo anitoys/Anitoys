@@ -110,6 +110,41 @@
                </a>
            </div>
        </div>-->
+<footer class="footer">
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-3">
+    <img src="imagenes/img_index/logoDefinido.jpg">
+    <img src="">
+</div>
+    
+<div class="col-3">
+<div class="lista">
+<h4>Secciones</h4>
+<a href="index.jsp">Inicio</a><br>
+<a href="#">Localización y contacto</a><br>
+<a href="RegistroCliente.jsp">Registro</a><br>
+<a href="SeleccionFamiliaServlet?id_familia=1">Perros</a><br>
+<a href="SeleccionFamiliaServlet?id_familia=2">Gatos</a><br>
+<a href="SeleccionFamiliaServlet?id_familia=3">Peces</a><br>
+<a href="SeleccionFamiliaServlet?id_familia=4">Pajaros</a><br>
+</div>
+    </div>
+    
+<div class="col-3">
+<h4>Siguenos</h4>
+
+<div class="col-3">
+<div class="redes2">
+<h4>Siguenos</h4>
+<img src="imagenes/img_index/redes.png">
+<p>@AniToys.AniToys</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
 
 
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

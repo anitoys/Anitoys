@@ -73,25 +73,31 @@ a {
 .card-title{
     text-align: center;
 }
-
-footer{
-    background-color: lightsteelblue;
-}
-
-footer h3{
-    color: rgba(201, 20, 192, 0.5);
-}
-/*No me funciona: es para quitar los puntos*/
-footer li a{
-    text-decoration: none;
+.footer{
+    padding: 20px;
+    font-family: comics;
 }
 
 footer img{
-    width: 75%;
+    width: 50%;
     padding-bottom: 14px;
     border-radius: 25%;
 
 }
+.lista{
+    text-align: center;
+}
+.col-3:hover{
+    background-color: #ACF8FD;
+    margin: auto;
+}
+.redes2 img{
+    width: 200px;
+    border-radius: 50px;
+    }
+    .redes2{
+        text-align: center;
+    }
 
 
 

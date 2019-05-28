@@ -7,6 +7,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.swing.JOptionPane;
 
 public class RegistradorClienteServlet extends HttpServlet {
 
@@ -22,6 +23,7 @@ public class RegistradorClienteServlet extends HttpServlet {
         try {
             GestorDeClientes gestor = new GestorDeClientes();
             gestor.registrar(c1);
+            
             System.out.println("FINALIZADO CON EXITO");
             RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/RegistroCliente.jsp");
             dispatcher.forward(request, response);

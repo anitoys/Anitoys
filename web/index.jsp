@@ -44,6 +44,8 @@
                         <div class="col-auto text-right" class="icon">
                             <img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt="">
                         <p class="font-italic colorP font-weight-bold" ">Mi cuenta</p>
+                        <div class="col-auto" class="icon">
+                            <a href="RegistradorClienteServlet"><img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt=""></a>
                         </div> 
                         <div class="col-auto text-right" class="icon">            
                             <img src="imagenes/img_index/cesta2.png" width="50px" alt="">

@@ -8,12 +8,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
 public class ConsultaProductosServlet extends HttpServlet {
- 
+
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-           try {
+        try {
             GestorProductos gestor = new GestorProductos();
             ResultSet producto = gestor.getProductos();
             System.out.println("TODO CORRECTO");

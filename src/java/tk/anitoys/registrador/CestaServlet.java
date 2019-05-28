@@ -14,6 +14,7 @@ public class CestaServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        HttpSession sesion = request.getSession(true);
         String nombre = request.getParameter("nombre");
         String foto = request.getParameter("foto");
         int precio = Integer.parseInt(request.getParameter("precio"));
@@ -24,10 +25,10 @@ public class CestaServlet extends HttpServlet {
         Producto nuevoProducto = new Producto(nombre, foto, precio, descripcion, familia, categoria);
         //Guardo el producto en la sesión
         HttpSession sesion = request.getSession(true);
-        List<Producto> cesta = (ArrayList) sesion.getAttribute("cesta");
-        if (cesta == null) {
+        ArrayList <String> cesta = new ArrayList();
+        if (sesion.getAttribute ("cesta") != null) {
             //Al no existir la cesta, la creamos
-            cesta = new ArrayList();
+            cesta = (ArrayList <String>) sesion.getAttribute
         }
         cesta.add(nuevoProducto);
         sesion.setAttribute("cesta", cesta);

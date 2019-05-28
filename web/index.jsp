@@ -20,15 +20,10 @@
     </head>
 
     <body>
-        <div class="container">
-            <div class="col" class="logo">
-                <img src="imagenes/img_index/logo.png" class="" alt="">
-            </div>    
-            <div class="col">
-                <h1>Anytoys. Tu mascota, nuestro amigo</h1>
-            </div>
-        </div>
-        <div class="container-fluid"> 
+           
+        <!-- <div class="container">
+        </div> -->
+        <div class="container-fluid">
             
             
         <!-- iconos cesta -->
@@ -38,18 +33,21 @@
                 </div> 
             <div class="row"> 
                 <div id="iconos" class="container">
-                    <div class="row">
+                    <div class="d-flex flex-row text-right ">
                         <input id="search" class="col-5" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
                                class="input-text search-form-trigger"  width="150px" role="combobox" aria-haspopup="false" 
-                               aria-autocomplete="both" autocomplete="off"> 
-                        <div class="col-auto" class="icon">
+                               aria-autocomplete="both" autocomplete="off" text-right> 
+                        <div class="col-auto text-right" class="icon" >
                             <img src="imagenes/img_index/Adminsitrar2.png" width="50px"  alt="">
+                            <p Class="colorP font-weight-bold" class="font-italic" >Adminstrador</p>
                         </div> 
-                        <div class="col-auto" class="icon">
+                        <div class="col-auto text-right" class="icon">
                             <img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt="">
+                        <p class="font-italic colorP font-weight-bold" ">Mi cuenta</p>
                         </div> 
-                        <div class="col-auto" class="icon">            
+                        <div class="col-auto text-right" class="icon">            
                             <img src="imagenes/img_index/cesta2.png" width="50px" alt="">
+                        <p class="font-italic colorP font-weight-bold"">Cesta</p>
                         </div> 
                     </div> 
                 </div>
@@ -70,21 +68,21 @@
                 <div class="collapse navbar-collapse" id="navbarToggler">
 
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="SeleccionFamiliaServlet?id_familia=1">Perro</a>
+                        <li class="nav-item active text-right">
+                            <a class="nav-link font-weight-bold " href="SeleccionFamiliaServlet?id_familia=1">Perro</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="SeleccionFamiliaServlet?id_familia=2">Gatos</a>
+                            <a class="nav-link font-weight-bold" href="SeleccionFamiliaServlet?id_familia=2">Gatos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="SeleccionFamiliaServlet?id_familia=3">Peces</a>
+                            <a class="nav-link font-weight-bold" href="SeleccionFamiliaServlet?id_familia=3">Peces</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item font-weight-bold">
                             <a class="nav-link" href="SeleccionFamiliaServlet?id_familia=4">Pajaros</a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false">
                                 Anitoys 
                             </a>

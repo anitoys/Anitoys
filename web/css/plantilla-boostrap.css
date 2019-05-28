@@ -73,6 +73,7 @@ a {
 .card-title{
     text-align: center;
 }
+<<<<<<< HEAD
 .footer{
     background-color:aliceblue;
     padding: 20px;
@@ -87,6 +88,8 @@ a {
     border-radius: 25%;
 }
 
+=======
+>>>>>>> 978ddf84a60cf016f4b75fbfdbf67781e924ebf8
 .lista{
     text-align: center;
 }

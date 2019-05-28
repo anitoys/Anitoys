@@ -1,28 +1,38 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package tk.anitoys.registrador;
 
 import java.io.IOException;
-import java.sql.ResultSet;
+import java.util.ArrayList;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
-public class ConsultaProductosServlet extends HttpServlet {
+/**
+ *
+ * @author formador
+ */
+public class AgregarProductoServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        try {
-            GestorProductos gestor = new GestorProductos();
-            ResultSet producto = gestor.getProductos();
-            System.out.println("TODO CORRECTO");
-            //Dirige a la pagina que queremos mostrar
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Cesta.jsp");
-            request.setAttribute("datos", producto);
-            dispatcher.forward(request, response);
-        } catch (Exception e) {
-            e.printStackTrace();
+        String foto = request.getParameter("foto");
+        HttpSession sesion = request.getSession(true);
+        ArrayList<String> cesta = new ArrayList();
+        if (sesion.getAttribute("cesta") != null) {
+            cesta = (ArrayList<String>) sesion.getAttribute("cesta");
         }
+        cesta.add("nombre");
+        sesion.setAttribute("cesta", cesta);
+        RequestDispatcher dispatcher = 
+                    getServletContext().getRequestDispatcher("/ConsultaProductosServlet");
+        dispatcher.forward(request, response);
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

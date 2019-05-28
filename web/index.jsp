@@ -22,77 +22,79 @@
     <body>
 
         <!-- <div class="container">
-        </div> -->
         <div class="container-fluid">
+        </div> -->
 
 
-            <!-- iconos cesta -->
-            <div class="container-fluid">
-                <div class="col-auto" class="logo">
-                    <img src="imagenes/img_index/logoDefinido.jpg" class="" alt="">
-                </div> 
-                <div class="row"> 
-                    <div id="iconos" class="container">
-                        <div class="d-flex flex-row text-right ">
-                            <input id="search" class="col-5" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
-                                   class="input-text search-form-trigger"  width="150px" role="combobox" aria-haspopup="false" 
-                                   aria-autocomplete="both" autocomplete="off" text-right> 
-                            <div class="col-auto text-right" class="icon" >
-                                <img src="imagenes/img_index/Adminsitrar2.png" width="50px"  alt="">
-                                <p Class="colorP font-weight-bold" class="font-italic" >Adminstrador</p>
-                                <!--aqui el <a href-->
-                            </div> 
-                            <div class="col-auto text-right" class="icon">
-                                <a href="RegistradorClienteServlet"><img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt=""></a>
-                                <p class="font-italic colorP font-weight-bold" ">Mi cuenta</p>
-                            </div> 
-                            <div class="col-auto text-right" class="icon">            
-                                <img src="imagenes/img_index/cesta2.png" width="50px" alt="">
-                                <p class="font-italic colorP font-weight-bold"">Cesta</p>
-                            </div> 
+
+        <!-- iconos cesta -->
+        <div class="container-fluid">
+            <div class="col-auto" class="logo">
+                <img src="imagenes/img_index/logoDefinido.jpg" class="" alt="">
+            </div> 
+            <div class="row"> 
+                <div id="iconos" class="container">
+                    <div class="d-flex flex-row text-right ">
+                        <input id="search" class="col-5" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
+                               class="input-text search-form-trigger"  width="150px" role="combobox" aria-haspopup="false" 
+                               aria-autocomplete="both" autocomplete="off" text-right> 
+                        <div class="col-auto text-right" class="icon" >
+                            <img src="imagenes/img_index/Adminsitrar2.png" width="50px"  alt="">
+                            <p Class="colorP font-weight-bold" class="font-italic" >Adminstrador</p>
+                            <!--aqui el <a href-->
                         </div> 
-                    </div>
-                </div>
+                        <div class="col-auto text-right" class="icon">
+                            <a href="RegistroCliente.jsp"><img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt=""></a>
+                            <p class="font-italic colorP font-weight-bold">Mi cuenta</p>
+                        </div> 
+                        <div class="col-auto text-right" class="icon">            
+                            <img src="imagenes/img_index/cesta2.png" width="50px" alt="">
+                            <p class="font-italic colorP font-weight-bold"">Cesta</p>
+                        </div> 
+                    </div> 
+                </div> 
             </div>
 
+        </div>
 
 
-            <nav class="navbar navbar-expand-lg navbar-expand-md  sticky-top navbar-light colorbarra backgroundcolorbarra">
-                <a class="navbar-brand hovercolor" href="#">    
-                </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo03"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <nav class="navbar navbar-expand-lg navbar-expand-md  sticky-top navbar-light colorbarra backgroundcolorbarra">
+            <a class="navbar-brand hovercolor" href="#">    
+            </a>
 
-                <div class="collapse navbar-collapse" id="navbarToggler">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo03"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                    <ul class="navbar-nav">
-                        <li class="nav-item active text-right">
-                            <a class="nav-link font-weight-bold " href="SeleccionFamiliaServlet?id_familia=1">Perro</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold" href="SeleccionFamiliaServlet?id_familia=2">Gatos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold" href="SeleccionFamiliaServlet?id_familia=3">Peces</a>
-                        </li>
-                        <li class="nav-item font-weight-bold">
-                            <a class="nav-link" href="SeleccionFamiliaServlet?id_familia=4">Pajaros</a>
-                        </li>
+            <div class="collapse navbar-collapse" id="navbarToggler">
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false">
-                                Anitoys 
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Localizacion</a>
-                                <a class="dropdown-item" href="#">Contacto</a>
-                                <a class="dropdown-item" href="IngresoAdmin.jsp">Administrador</a>
-                    </ul>
-                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active text-right">
+                        <a class="nav-link font-weight-bold " href="SeleccionFamiliaServlet?id_familia=1">Perro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="SeleccionFamiliaServlet?id_familia=2">Gatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="SeleccionFamiliaServlet?id_familia=3">Peces</a>
+                    </li>
+                    <li class="nav-item font-weight-bold">
+                        <a class="nav-link" href="SeleccionFamiliaServlet?id_familia=4">Pajaros</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            Anitoys 
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Localizacion</a>
+                            <a class="dropdown-item" href="#">Contacto</a>
+                            <a class="dropdown-item" href="IngresoAdmin.jsp">Administrador</a>
+                </ul>
+            </div>
         </div>
 
         <!--carrusel-->
@@ -227,63 +229,6 @@
                 <div class="container-fluid" >
                     <p></p>
                 </div>
-
-                <!-- <div class="container-fluid">
-           
-                   <select class="custom-select custom-select-lg mb-3">
-                     <option selected>Elige tu lugar</option>
-                     <option value="1">Estambul</option>
-                     <option value="2">Capadocia</option>
-                     <option value="3">Laguna Azul</option>
-                   </select>
-                 </div>
-               </div> -->
-
-
-
-                <footer class="footer">
-
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <h3>Estambul</h3>
-                                <ul>
-                                    <li>Excursiones</li>
-                                    <li>Traslados</li>
-                                    <li>Hoteles</li>
-                                    <li>alquiler de coches</li>
-
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <h3>Guía Turística</h3>
-                                <ul>
-                                    <li>Excursiones</li>
-                                    <li>Ciudades</li>
-                                    <li>Naturaleza</li>
-                                    <li>Paisajes</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <h3>Sobre Nosotros</h3>
-                                <ul>
-                                    <li>Contacto</li>
-                                    <li>Preguntas Frecuentes</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <h3>Siguenos</h3>
-                                <img src="imagenes\imagenes-carrusel\iconos-redes-sociales.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-
-
-
-
-
-
 
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
                 crossorigin="anonymous"></script>

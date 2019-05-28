@@ -20,11 +20,11 @@
     font-size: 20px;
     font-weight: 700;
 }
-#formulario, #formulario2{
+.formulario, .formularioContacto{
     width: 90%;
     padding: 20px;
 }
-input[type="text"], input[type="email"], input[type="password"], input[type="file"],input[type="number"], #familia, #categoria, textArea{
+.formulario input[type="text"], input[type="email"], input[type="password"], input[type="file"],input[type="number"], #familia, #categoria, .formularioContacto input, textArea{
     width:90%;
     font-family: 'Roboto Slab', serif;
     font-size: 16px;

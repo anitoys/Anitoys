@@ -12,7 +12,7 @@
     <body>
         <section id="contenedor">
             <h2>ALTA DE UN PRODUCTO</h2>
-            <form action="ProductoServlet">
+            <form action="ProductoServlet" class="formulario">
                 <input type="text" name="nombreProducto" id="nombreProducto" value="" placeholder="Nombre Producto"><br>
                 <input type="file" name="foto" id="foto"  placeholder="fotoProducto" accept="image/png, image/jpeg"><br>
                 <input type="number" name="precio" id="precio" value="" placeholder="Precio"><br>

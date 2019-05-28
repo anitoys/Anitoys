@@ -12,7 +12,7 @@
     <body>
         <section id="contenedor">
             <h2>REGISTRO ADMINISTRADOR</h2>
-        <form action="ValidadorAdminServlet">
+        <form action="ValidadorAdminServlet" class="formulario">
             Usuario:<input type="text" name="usuario"placeholder="Usuario">
             Contraseña:<input type="password" name="password"placeholder="Contraseña">
             <input type="submit"  id="boton" name="chequeo" value="Entrar">

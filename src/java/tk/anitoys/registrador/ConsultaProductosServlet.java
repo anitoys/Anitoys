@@ -17,7 +17,7 @@ public class ConsultaProductosServlet extends HttpServlet {
             ResultSet producto = gestor.getProductos();
             System.out.println("TODO CORRECTO");
             //Dirige a la pagina que queremos mostrar
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/productos.jsp");
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Cesta.jsp");
             request.setAttribute("datos", producto);
             dispatcher.forward(request, response);
         } catch (Exception e) {

@@ -238,63 +238,6 @@
                     <p></p>
                 </div>
 
-                <!-- <div class="container-fluid">
-           
-                   <select class="custom-select custom-select-lg mb-3">
-                     <option selected>Elige tu lugar</option>
-                     <option value="1">Estambul</option>
-                     <option value="2">Capadocia</option>
-                     <option value="3">Laguna Azul</option>
-                   </select>
-                 </div>
-               </div> -->
-
-
-
-                <footer class="footer">
-
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <h3>Estambul</h3>
-                                <ul>
-                                    <li>Excursiones</li>
-                                    <li>Traslados</li>
-                                    <li>Hoteles</li>
-                                    <li>alquiler de coches</li>
-
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <h3>Guía Turística</h3>
-                                <ul>
-                                    <li>Excursiones</li>
-                                    <li>Ciudades</li>
-                                    <li>Naturaleza</li>
-                                    <li>Paisajes</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <h3>Sobre Nosotros</h3>
-                                <ul>
-                                    <li>Contacto</li>
-                                    <li>Preguntas Frecuentes</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <h3>Siguenos</h3>
-                                <img src="imagenes\imagenes-carrusel\iconos-redes-sociales.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-
-
-
-
-
-
-
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
                 crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"

@@ -46,7 +46,7 @@
                             <img src="imagenes/img_index/Adminsitrar2.png" width="50px"  alt="">
                         </div> 
                         <div class="col-auto" class="icon">
-                            <img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt="">
+                            <a href="RegistradorClienteServlet"><img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt=""></a>
                         </div> 
                         <div class="col-auto" class="icon">            
                             <img src="imagenes/img_index/cesta2.png" width="50px" alt="">

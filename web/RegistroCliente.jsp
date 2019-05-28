@@ -24,6 +24,7 @@
                 <input type="password" name="password" placeholder="Contraseña" required><br>
                 <div><input type="checkbox" name="politica" id=""required>Acepto la politica de privacidad</div>
                 <input type="submit" id="boton" value="Registrar">
+                <a href="index.jsp"><input type="button" id="boton" value="Volver"></a>
             </form>
         </section>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

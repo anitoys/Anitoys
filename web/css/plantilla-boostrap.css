@@ -9,15 +9,18 @@
 #iconos{
     text-align:right;
 }
+.colorP{
+    color:rgba(201, 20, 192, 0.5);
+    font-size: 15px;
+    
+    
+}
 
 .logo{
     padding: 0;
     padding-bottom: 1px;
     
     margin:0;
-}
-.row{
-    text-align: right;
 }
 .container-fluid {
    
@@ -31,14 +34,15 @@
    /* background-color: blueviolet;*/
 
    color: rgb(226, 43, 211);
-
 }
+
 .backgroundcolorbarra{
     background-color: lightsteelblue;
 }
 
 .navbar-light .navbar-brand {
     color: rgba(201, 20, 192, 0.5);
+    text-align: right;
 }
 a {
     color: blueviolet;

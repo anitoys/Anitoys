@@ -114,11 +114,17 @@
 
 <div class="container-fluid">
 <div class="row">
-<div class="col-3">
-    <img src="imagenes/img_index/logoDefinido.jpg">
-    <img src="">
+<div class="col-6">
+<img src="imagenes/img_index/logoDefinido.jpg">
 </div>
-    
+<div class="col-6">
+<p>La salud de tu mascota depende exclusivamente de una buena y correcta alimentación.  Debes elegir  el alimento adecuado para su edad, que el mismo contenga todos los nutrientes y vitaminas necesarios, y consulta las cantidades que debes darle.</p>
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="row">    
 <div class="col-3">
 <div class="lista">
 <h4>Secciones</h4>
@@ -130,16 +136,29 @@
 <a href="SeleccionFamiliaServlet?id_familia=3">Peces</a><br>
 <a href="SeleccionFamiliaServlet?id_familia=4">Pajaros</a><br>
 </div>
-    </div>
+</div>
     
 <div class="col-3">
-<h4>Siguenos</h4>
-
-<div class="col-3">
+<div class="metodo">
+<h4>Metodos de pago</h4>
+<img src="imagenes/img_index/metodos.png">
+</div>
+</div>
+    
+<div class="col-3">  
+<h4>Redes de localización</h4>
 <div class="redes2">
-<h4>Siguenos</h4>
 <img src="imagenes/img_index/redes.png">
-<p>@AniToys.AniToys</p>
+<div class="redes5">
+<img src="imagenes/img_index/redes3.png">
+</div>
+</div>
+</div>
+    
+<div class="col-3">
+<div class="redes6">
+<img src="imagenes/img_index/atencion.png">
+</div>
 </div>
 </div>
 </div>

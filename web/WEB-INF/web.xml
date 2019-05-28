@@ -5,7 +5,7 @@
         <servlet-class>tk.anitoys.registrador.ValidadorAdminServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>RegistradorServlet</servlet-name>
+        <servlet-name>RegistradorClienteServlet</servlet-name>
         <servlet-class>tk.anitoys.registrador.RegistradorClienteServlet</servlet-class>
     </servlet>
     <servlet>
@@ -37,8 +37,8 @@
         <url-pattern>/ValidadorAdminServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>RegistradorServlet</servlet-name>
-        <url-pattern>/RegistradorServlet</url-pattern>
+        <servlet-name>RegistradorClienteServlet</servlet-name>
+        <url-pattern>/RegistradorClienteServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ConsultaProductosServlet</servlet-name>

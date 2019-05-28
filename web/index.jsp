@@ -20,41 +20,40 @@
     </head>
 
     <body>
-           
+
         <!-- <div class="container">
         </div> -->
         <div class="container-fluid">
-            
-            
-        <!-- iconos cesta -->
-        <div class="container-fluid">
+
+
+            <!-- iconos cesta -->
+            <div class="container-fluid">
                 <div class="col-auto" class="logo">
                     <img src="imagenes/img_index/logoDefinido.jpg" class="" alt="">
                 </div> 
-            <div class="row"> 
-                <div id="iconos" class="container">
-                    <div class="d-flex flex-row text-right ">
-                        <input id="search" class="col-5" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
-                               class="input-text search-form-trigger"  width="150px" role="combobox" aria-haspopup="false" 
-                               aria-autocomplete="both" autocomplete="off" text-right> 
-                        <div class="col-auto text-right" class="icon" >
-                            <img src="imagenes/img_index/Adminsitrar2.png" width="50px"  alt="">
-                            <p Class="colorP font-weight-bold" class="font-italic" >Adminstrador</p>
+                <div class="row"> 
+                    <div id="iconos" class="container">
+                        <div class="d-flex flex-row text-right ">
+                            <input id="search" class="col-5" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
+                                   class="input-text search-form-trigger"  width="150px" role="combobox" aria-haspopup="false" 
+                                   aria-autocomplete="both" autocomplete="off" text-right> 
+                            <div class="col-auto text-right" class="icon" >
+                                <img src="imagenes/img_index/Adminsitrar2.png" width="50px"  alt="">
+                                <p Class="colorP font-weight-bold" class="font-italic" >Adminstrador</p>
+                                <!--aqui el <a href-->
+                            </div> 
+                            <div class="col-auto text-right" class="icon">
+                                <a href="RegistradorClienteServlet"><img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt=""></a>
+                                <p class="font-italic colorP font-weight-bold" ">Mi cuenta</p>
+                            </div> 
+                            <div class="col-auto text-right" class="icon">            
+                                <img src="imagenes/img_index/cesta2.png" width="50px" alt="">
+                                <p class="font-italic colorP font-weight-bold"">Cesta</p>
+                            </div> 
                         </div> 
-                        <div class="col-auto text-right" class="icon">
-                            <img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt="">
-                        <p class="font-italic colorP font-weight-bold" ">Mi cuenta</p>
-                        <div class="col-auto" class="icon">
-                            <a href="RegistradorClienteServlet"><img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt=""></a>
-                        </div> 
-                        <div class="col-auto text-right" class="icon">            
-                            <img src="imagenes/img_index/cesta2.png" width="50px" alt="">
-                        <p class="font-italic colorP font-weight-bold"">Cesta</p>
-                        </div> 
-                    </div> 
+                    </div>
                 </div>
             </div>
-        </div>
 
 
 
@@ -95,10 +94,10 @@
                     </ul>
                 </div>
         </div>
-                
-                <!--carrusel-->
-                
-                 <div class="pt-3">
+
+        <!--carrusel-->
+
+        <div class="pt-3">
             <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -129,47 +128,47 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-                
-<!--
-        <div class="pt-3">
-            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="imagenes/img_index/carruselPerros.jpg" class="d-block w-100 " data-interval="100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                   <!--     <img src="imagenes/img_index/carruselgatos.jpg" class="d-block w-100" h-80 alt="...">
-                    </div>-->
-                <!--    <div class="carousel-item">
-                        <img src="imagenes/img_index/carruselgatos1.jpg" class="d-block w-100"  data-interval="100"  alt="...">
-                    </div>
 
-                    <div class="carousel-item">
-                        <img src="imagenes/img_index/pajaro2.jpg" class="d-block w-100"  data-interval="100"  alt="...">
-                    </div>                  
+            <!--
+                    <div class="pt-3">
+                        <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imagenes/img_index/carruselPerros.jpg" class="d-block w-100 " data-interval="100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+            <!--     <img src="imagenes/img_index/carruselgatos.jpg" class="d-block w-100" h-80 alt="...">
+             </div>-->
+            <!--    <div class="carousel-item">
+                    <img src="imagenes/img_index/carruselgatos1.jpg" class="d-block w-100"  data-interval="100"  alt="...">
+                </div>
 
-                    <div class="carousel-item">
-                        <img src="imagenes/img_index/carruselpeces1.jpg" class="d-block w-100"  data-interval="100"  alt="...">
-                    </div> -->
+                <div class="carousel-item">
+                    <img src="imagenes/img_index/pajaro2.jpg" class="d-block w-100"  data-interval="100"  alt="...">
+                </div>                  
+
+                <div class="carousel-item">
+                    <img src="imagenes/img_index/carruselpeces1.jpg" class="d-block w-100"  data-interval="100"  alt="...">
+                </div> -->
 
 
-              <!--  </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>  -->
+            <!--  </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+          </div>  -->
 
             <!-- LAS CARS -->
             <div class="container-fluid">

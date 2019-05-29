@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 .container{
-    fload:right;
+    float:right;
 }
 #iconos{
-    text-align:right;
+    align-items: flex-end;
+    /*text-align:right;*/
+}
+#search{
+    border-radius: 25px; 
 }
 .colorP{
     color:rgba(201, 20, 192, 0.5);
@@ -63,8 +67,20 @@ a {
     color:green;
 
 }*/
-/*Estilo de las Card 'Ofertas'*/
 
+#oferta{
+    boder:2px solid green;
+    color: white;
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/*Estilo de las Card 'Ofertas'*/
 .text-primary{
     color:blue;
     font-size: 40px;
@@ -73,23 +89,35 @@ a {
 .card-title{
     text-align: center;
 }
-<<<<<<< HEAD
-.footer{
+/*Estilo footer*/
+
+footer{
     background-color:aliceblue;
     padding: 20px;
     font-family: comics;
 }
 .col-6{
-    text-align: center;
-}
+     text-align: center;
+     }
 .col-6 img{
     width: 200px;
     padding-bottom: 14px;
     border-radius: 25%;
 }
 
-=======
->>>>>>> 978ddf84a60cf016f4b75fbfdbf67781e924ebf8
+#frase{
+    color:rgba(201, 20, 192, 0.5);
+    font-size: 15px;
+    font-style: italic;
+    font-weight:bolder;
+    border: 3px;
+    border-radius: 25px; 
+    background-color:greenyellow;
+    text-align: center;
+    
+   
+}
+
 .lista{
     text-align: center;
 }
@@ -125,4 +153,7 @@ a {
 }
 .col-3{
     text-align: center;
+}
+.pt-20{
+    padding-top: 280px!important;
 }

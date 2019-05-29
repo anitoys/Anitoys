@@ -30,13 +30,13 @@
                                class="input-text search-form-trigger"  width="150px" role="combobox" aria-haspopup="false" 
                                aria-autocomplete="both" autocomplete="off"> 
                         <div class="col-auto" class="icon">
-                            <img src="imagenes/img_index/Adminsitrar2.png" width="50px"  alt="">
+                            <img src="imagenes/img_index/Adminsitrar2.png" width="30px"  alt="">
                         </div> 
                         <div class="col-auto" class="icon">
-                            <img src="imagenes/img_index/iconMiCuenta2.png" width="50px" alt="">
+                            <img src="imagenes/img_index/iconMiCuenta2.png" width="30px" alt="">
                         </div> 
                         <div class="col-auto" class="icon">            
-                            <img src="imagenes/img_index/cesta2.png" width="50px" alt="">
+                            <img src="imagenes/img_index/cesta2.png" width="30px" alt="">
                         </div> 
                     </div> 
                 </div>

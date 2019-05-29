@@ -13,13 +13,7 @@
 
     </head>
     <body>
-        <%
-        ArrayList<String> cesta = (ArrayList<String>)session.getAttribute("cesta");
-        if (cesta!=null){
-            out.print("<P>Cesta:" + cesta.size() + " productos</P>");
-            out.print("<P><a href='vercesta.jsp'>Ver cesta</a>");
-        }
-        %>
+        
         <div class="container fluid">
             <%
             while (producto.next()){

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-  fload:right;
+    fload:right;
 }
 #iconos{
     text-align:right;
@@ -12,28 +12,28 @@
 .colorP{
     color:rgba(201, 20, 192, 0.5);
     font-size: 15px;
-    
-    
+
+
 }
 
 .logo{
     padding: 0;
     padding-bottom: 1px;
-    
+
     margin:0;
 }
 .container-fluid {
-   
+
     padding-right: 0px;
     padding-left: 0px;
-    
+
 }
 
 
 .colorbarra a{
-   /* background-color: blueviolet;*/
+    /* background-color: blueviolet;*/
 
-   color: rgb(226, 43, 211);
+    color: rgb(226, 43, 211);
 }
 
 .backgroundcolorbarra{
@@ -54,8 +54,8 @@ a {
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: rgba(201, 20, 192, 0.5); 
-     font-weight: bold;
-    
+    font-weight: bold;
+
 }
 
 /*PENDIENTE ESTUDIAR EL HOVER... COLOR hovercolor
@@ -73,20 +73,56 @@ a {
 .card-title{
     text-align: center;
 }
+<<<<<<< HEAD
+.footer{
+    background-color:aliceblue;
+    padding: 20px;
+    font-family: comics;
+}
+.col-6{
+    text-align: center;
+}
+.col-6 img{
+    width: 200px;
+    padding-bottom: 14px;
+    border-radius: 25%;
+}
+
+=======
+>>>>>>> 978ddf84a60cf016f4b75fbfdbf67781e924ebf8
 .lista{
     text-align: center;
 }
-.col-3:hover{
-    background-color: #ACF8FD;
-    margin: auto;
-}
 .redes2 img{
+    width: 100px;
+    border-radius: 50px;
+}
+.redes6 img{
     width: 200px;
     border-radius: 50px;
-    }
-    .redes2{
-        text-align: center;
-    }
-
-
-
+}
+.redes2{
+    text-align: center;
+    margin: auto;
+}
+.row{
+    float:left;
+}
+.metodo{
+    text-align: center;
+    margin: auto;  
+}
+.metodo img{
+    width: 130px;
+    border-radius: 50px; 
+}
+.footer h4{
+    font-size:large;
+}
+.redes5 img{
+    width: 200px;
+    border-radius: 50px;
+}
+.col-3{
+    text-align: center;
+}

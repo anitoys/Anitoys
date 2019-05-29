@@ -33,7 +33,7 @@
     background-color: thistle;
     padding: 5px;
 }
-input:focus{
+input:focus, textArea:focus{
     background-color: white;
 }
 input[type="checkbox"]{

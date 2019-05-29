@@ -23,28 +23,29 @@
 
         <!-- iconos cesta -->
         <div class="container-fluid row">
-            <div class="col-auto" class="logo">
+            <div class="col-auto logo" >
                 <img src="imagenes/img_index/logoDefinido.jpg" class="" alt="">
             </div> 
 
-            <div id="iconos" class="container">
-                <div class="d-flex flex-row text-right ">
-                    <input id="search" class="col-5" border-radius="25px" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
-                           class="input-text search-form-trigger "  width="150px"  role="combobox" aria-haspopup="false" 
+            <div id="iconos" class=" row col">
+                <div class="row text-right ">
+                    <input id="search" class="col-5" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
+                           class="input-text search-form-trigger "   role="combobox" aria-haspopup="false" 
                            aria-autocomplete="both" autocomplete="off" text-right> 
-                    <div class="col-auto text-right" class="icon" >
+                    <div class="col text-right icon"  >
+                        <a href="IngresoAdmin.jsp">
                         <img src="imagenes/img_index/Adminsitrar2.png" width="40px"  alt="">
-                        <p Class="colorP font-weight-bold" class="font-italic" >Adminstrador</p>
+                        <p class="colorP font-weight-bold"  >Adminstrador</p>
                         <!--aqui el <a href-->
                     </div> 
-                    <div class="col-auto text-right" class="icon">
+                    <div class="col text-right icon" >
                         <a href="RegistroCliente.jsp">
                             <img src="imagenes/img_index/iconMiCuenta2.png" width="40px" alt="">
                             <p class="font-italic colorP font-weight-bold">Mi cuenta</p>
                         </a>
                         
                     </div> 
-                    <div class="col-auto text-right" class="icon">      
+                    <div class="col text-right icon" class="">      
                         <a href="Cesta.jsp"><img src="imagenes/img_index/cesta2.png" width="40px" alt=""></a>                      
                         <p class="font-italic colorP font-weight-bold">Cesta</p>
                     </div> 
@@ -55,8 +56,8 @@
 
 
 
-        <div class="container-fluid row"> 
-            <nav class="navbar navbar-expand-lg navbar-expand-md  sticky-top navbar-light colorbarra backgroundcolorbarra" >
+        <div class="container-fluid"> 
+            <nav class="navbar justify-content-center navbar-expand-lg navbar-expand-md sticky-top navbar-light colorbarra backgroundcolorbarra " >
                 <a class="navbar-brand hovercolor" href="#">     </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo03"
@@ -89,9 +90,9 @@
                                 Anitoys 
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Localizacion</a>
-                                <a class="dropdown-item" href="#">Contacto</a>
-                                <a class="dropdown-item" href="IngresoAdmin.jsp">Administrador</a>
+                                <a class="dropdown-item" href="contacto.html">Localizacion</a>
+                                <a class="dropdown-item" href="contacto.html">Contacto</a>
+                                <a class="dropdown-item" href="IngresoAdmin.jsp">Administrador</a><a href="IngresoAdmin.jsp">
                             </div>
                         </li>    
                     </ul>
@@ -102,7 +103,7 @@
 
         <!--carrusel-->
 
-        <div class="pt-20">
+        <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -135,7 +136,7 @@
             </div>
         </div>
 
-        <div class="container_oferta">
+        <div class="container container_oferta">
             <p id="oferta"> ! Nuestras ofertas del mes ¡ </p>
         </div>
 
@@ -145,7 +146,7 @@
         <!-- LAS CARS -->
         <div class="container-fluid">
             <div class="card-deck pt-5">
-                <div class="card">
+                <div class="card col-12 col-md-6 col-lg-3">
                     <img src="imagenes\img_perros\pienso_perros2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Oferta Perros</h5>
@@ -156,7 +157,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card col-12  col-md-6 col-lg-3">
                     <img src="imagenes\img_gatos\10pienso-gatos.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Oferta Gatos</h5>
@@ -167,7 +168,7 @@
                         <small class="text-primary">!Lo quiero¡</small>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card col-12 col-md-6 col-lg-3">
                     <img src="imagenes\img_pajaros\pienso_pajaros1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Oferta Pajaros </h5>
@@ -179,7 +180,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card col-12 col-md-6 col-lg-3">
                     <img src="imagenes\img_peces\accesorios_aspirador_peces.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Oferta Peces</h5>
@@ -202,26 +203,25 @@
         <!--FOOTER Fabiola-->
         <footer class="container-fluid" >
 
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-6 pt-5 pb-5 ">
+           
+                <div class=" row justify-content-center align-items-center">
+                    <div class="col-12 col-md-4 pt-5 pb-5 ">
                         <img src="imagenes/img_index/logoDefinido.jpg">
                     </div>
-                    <div class="container col-6 pt-5 pb-5">
+                    <div class="col-12 col-md-8 pt-5 pb-5 container">
                         <p id="frase">La salud de tu mascota depende exclusivamente de una buena y correcta alimentación.  
                             Debes elegir  el alimento adecuado para su edad, que el mismo contenga todos los nutrientes 
                             y vitaminas necesarios, y consulta las cantidades que debes darle.</p>
                     </div>
                 </div>
-            </div>
-
-            <div class="container-fluid">
-                <div class="row">    
-                    <div class="col-3">
+          
+           
+                <div class="row align-items-start">    
+                    <div class="col-12 col-md-6 col-lg-3">
                         <div class="lista">
                             <h4>Secciones</h4>
                             <a href="index.jsp">Inicio</a><br>
-                            <a href="#">Localización y contacto</a><br>
+                            <a href="contacto.html">Localización y contacto</a><br>
                             <a href="RegistroCliente.jsp">Registro</a><br>
                             <a href="SeleccionFamiliaServlet?id_familia=1">Perros</a><br>
                             <a href="SeleccionFamiliaServlet?id_familia=2">Gatos</a><br>
@@ -230,15 +230,15 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <div class="metodo">
                             <h4>Metodos de pago</h4>
                             <img src="imagenes/img_index/metodos.png">
                         </div>
                     </div>
 
-                    <div class="col-3">  
-                        <h4>Redes de localización</h4>
+                    <div class="col-12 col-md-6 col-lg-3">  
+                      <!--  <h4>Redes de localización</h4>-->
                         <div class="redes2">
                             <img src="imagenes/img_index/redes.png">
                             <div class="redes5">
@@ -247,14 +247,14 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
-                        <div class="redes6">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="redes6 ">
                             <img src="imagenes/img_index/atencion.png">
                         </div>
                     </div>
-                </div>
+                
             </div>
-        </div>
+      
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

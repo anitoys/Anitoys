@@ -21,6 +21,25 @@
     font-size: 20px;
     font-weight: 700;
 }
+
+#contenedor2{
+  
+  
+    background-color: #ACF8FD;
+    text-align: center;
+    color: darkmagenta;
+    border-radius: 20px;
+   /* -webkit-box-shadow: 0px 31px 100px 0px rgba(94,32,94,1);
+    -moz-box-shadow: 0px 31px 100px 0px rgba(94,32,94,1);
+    box-shadow: 0px 31px 100px 0px rgba(94,32,94,1);*/
+    border: 5px solid white;
+}
+#contenedor2 h2{
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 700;
+}
 .formulario, .formularioContacto{
     width: 90%;
     padding: 20px;
@@ -58,7 +77,7 @@ input[type="checkbox"]{
     border:2px solid darkmagenta;
 }
 .row{
-    float:left;
+    
     margin: 20px;
 }
 .card{
@@ -93,7 +112,7 @@ input[type="checkbox"]{
 }
 
 .container{
-    padding:100px;
+   
 
 }
 .cestacompra{

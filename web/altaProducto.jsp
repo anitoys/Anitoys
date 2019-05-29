@@ -1,5 +1,9 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<% 
+    String mensaje = (String)request.getAttribute("mensaje");
+    if (mensaje==null) mensaje="";
+%>
 <!DOCTYPE html>
 <html>
     <head>

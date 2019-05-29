@@ -27,6 +27,7 @@ public class ProductoServlet extends HttpServlet {
             RegistrarProducto registrarP = new RegistrarProducto();
             registrarP.registrar(p1);
             RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/altaProducto.jsp");
+            request.setAttribute("mensaje", "Se ha registrado el producto con éxito");
             dispatcher.forward(request, response);
 
         } catch (Exception e) {

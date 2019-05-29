@@ -22,13 +22,13 @@ public class AgregarProductoServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String foto = request.getParameter("foto");
+        String nombre = request.getParameter("nombre");
         HttpSession sesion = request.getSession(true);
         ArrayList<String> cesta = new ArrayList();
         if (sesion.getAttribute("cesta") != null) {
             cesta = (ArrayList<String>) sesion.getAttribute("cesta");
         }
-        cesta.add("nombre");
+        cesta.add(nombre);
         sesion.setAttribute("cesta", cesta);
         RequestDispatcher dispatcher = 
                     getServletContext().getRequestDispatcher("/ConsultaProductosServlet");

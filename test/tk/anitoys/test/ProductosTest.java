@@ -90,7 +90,7 @@ public class ProductosTest {
         ValidarAdministrador va = null;
         try {
             va = new ValidarAdministrador();
-            ResultSet rs = va.getUsuario();
+            ResultSet rs = va.getUsuario(1);
         } catch (Exception e) {
             fail("Error de base de datos");
         } finally {

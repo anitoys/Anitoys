@@ -37,8 +37,8 @@ input:focus, textArea:focus{
     background-color: white;
 }
 input[type="checkbox"]{
-width: 10%;
-font-family: 'Roboto Slab', serif;
+    width: 10%;
+    font-family: 'Roboto Slab', serif;
 }
 #boton{
     background-color: darkmagenta;
@@ -51,7 +51,7 @@ font-family: 'Roboto Slab', serif;
     cursor: pointer;
     font-size: 16px;
 }
- #boton:hover{
+#boton:hover{
     background-color: thistle;
     color: darkmagenta;
     border:2px solid darkmagenta;
@@ -66,11 +66,11 @@ font-family: 'Roboto Slab', serif;
     font-size: 12px;
     border-radius: 20px;
     font-family: arial;
-    }
-    
-    .card p{
-        margin: 0;
-    }
+}
+
+.card p{
+    margin: 0;
+}
 .card img{
     width: 120px;
     display: box;
@@ -79,8 +79,8 @@ font-family: 'Roboto Slab', serif;
 .comprar{
     width: 70px;
     height: 30px;
-     background-color: violet;
-     border-radius: 25px;
+    background-color: violet;
+    border-radius: 25px;
 }
 .col-6{
     background-color: beige;
@@ -93,6 +93,22 @@ font-family: 'Roboto Slab', serif;
 
 .container{
     padding:100px;
-    
+
+}
+.cestacompra{
+    text-align: center;
+    background-color: #ACF8FD;
+    color: darkmagenta;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 31px 167px 0px rgba(94,32,94,1);
+    -moz-box-shadow: 0px 31px 167px 0px rgba(94,32,94,1);
+    box-shadow: 0px 31px 167px 0px rgba(94,32,94,1);  
 }
 
+.articulos{
+  border-color: black;
+  border-width: 3px;
+  border-style:double;
+  margin: 10px;
+  color: black;
+}

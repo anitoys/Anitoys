@@ -1,8 +1,12 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package tk.anitoys.registrador;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -10,35 +14,28 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-public class CestaServlet extends HttpServlet {
+/**
+ *
+ * @author formador
+ */
+public class AgregarProductoServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        HttpSession sesion = request.getSession(true);
         String nombre = request.getParameter("nombre");
-        String foto = request.getParameter("foto");
-        int precio = Integer.parseInt(request.getParameter("precio"));
-        String descripcion = request.getParameter("descripcion");
-        int familia = Integer.parseInt(request.getParameter("familia"));
-        String categoria = request.getParameter("categoria");
-
-        Producto nuevoProducto = new Producto(nombre, foto, precio, descripcion, familia, categoria);
-        //Guardo el producto en la sesión
         HttpSession sesion = request.getSession(true);
-        ArrayList <String> cesta = new ArrayList();
-        if (sesion.getAttribute ("cesta") != null) {
-            //Al no existir la cesta, la creamos
-            cesta = (ArrayList <String>) sesion.getAttribute
+        ArrayList<String> cesta = new ArrayList();
+        if (sesion.getAttribute("cesta") != null) {
+            cesta = (ArrayList<String>) sesion.getAttribute("cesta");
         }
-        cesta.add(nuevoProducto);
+        cesta.add(nombre);
         sesion.setAttribute("cesta", cesta);
-
-        //Vuelvo al catálogo
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/productos.jsp");
+        RequestDispatcher dispatcher = 
+                    getServletContext().getRequestDispatcher("/ConsultaProductosServlet");
         dispatcher.forward(request, response);
     }
 
-// <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
+    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
      *

@@ -1,3 +1,4 @@
+<%@page import="java.util.ArrayList"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
@@ -12,7 +13,7 @@
 
     </head>
     <body>
-        >
+        
         <div class="container fluid">
             <%
             while (producto.next()){
@@ -26,8 +27,8 @@
                         <p><strong><%=producto.getString("Nombre")%></strong></p>
                         <p class="card-text"><%=producto.getString("Descripcion")%></p>
                         <p class="card-text">Precio: <%=producto.getInt("Precio")%>€</p>
-                        <input type="button" class="comprar" value="Comprar"><a href="" img src="" ></a>
-                        
+                        <a href="AgregarProductoServlet?nombre=<%=producto.getString("nombre")%>">Comprar</a>
+                                
                     </div>
                 </div> 
                 </div>

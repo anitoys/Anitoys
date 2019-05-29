@@ -24,6 +24,7 @@ public class RegistradorClienteServlet extends HttpServlet {
             GestorDeClientes gestor = new GestorDeClientes();
             gestor.registrar(c1);
             RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/RegistroCliente.jsp");
+            request.setAttribute("mensaje", "El usuario se ha registrado correctamente");
             dispatcher.forward(request, response);
             
         } catch (Exception e) {

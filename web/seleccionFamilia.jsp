@@ -14,13 +14,13 @@
     </head>
     <body>
         
-        <div class="container fluid">
+        <div class="container">
             <%
             while (producto.next()){
             %>
             
             <div class="row">
-                <div class="col-4">
+                <div class="col-3">
                 <div class="card">
                     <img src="<%=producto.getString("foto")%>"> 
                     <div class="card-body">

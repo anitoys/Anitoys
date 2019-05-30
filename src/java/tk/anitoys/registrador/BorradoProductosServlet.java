@@ -17,6 +17,7 @@ public class BorradoProductosServlet extends HttpServlet {
             GestorProductos gestor = new GestorProductos();
             gestor.deleteProducto(id);
             RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/ConsultaProductosServlet");
+            request.setAttribute("mensaje", "El producto se ha eliminado correctamente");
             dispatcher.forward(request, response);
         } catch (Exception e) {
             e.printStackTrace();

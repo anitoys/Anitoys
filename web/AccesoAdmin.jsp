@@ -10,7 +10,9 @@
 
     </head>
     <body>
+        <img src="imagenes/img_index/Adminsitrar3.png">   
         <div class="container fluid"> 
+            
             <div class="row" id="acceso">
             <div class="col-6">
             <a href="altaProducto.jsp">Subir productos</a>  

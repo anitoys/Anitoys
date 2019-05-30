@@ -65,7 +65,7 @@
 
                     <ul class="navbar-nav">
                          <li class="nav-item active text-right">
-                            <a class="nav-link font-weight-bold " href="#">Home</a>
+                            <a class="nav-link font-weight-bold " href="index.jsp">Home</a>
                         </li>
                         <li class="nav-item active text-right">
                             <a class="nav-link font-weight-bold " href="SeleccionFamiliaServlet?id_familia=1">Perro</a>

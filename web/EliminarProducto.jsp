@@ -3,6 +3,10 @@
 <%
     ResultSet producto = (ResultSet) request.getAttribute("datos");
 %>
+<% 
+    String mensaje = (String)request.getAttribute("mensaje");
+    if (mensaje==null) mensaje="";
+%>
 <html>
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

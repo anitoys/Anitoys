@@ -3,8 +3,11 @@
     Created on : 10-may-2019, 10:20:04
     Author     : cice
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<% 
+    String mensaje = (String)request.getAttribute("mensaje");
+    if (mensaje==null) mensaje="";
+%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,6 +18,7 @@
     </head>
     <body>
         <section id="contenedor">
+            
             <h2>REGISTRO DE CLIENTES</h2>  
             <form action="RegistradorClienteServlet" method="GET" class="formulario">
                 <input type="text" name="nombre" placeholder="Nombre" required><br>
@@ -26,6 +30,7 @@
                 <input type="submit" id="boton" value="Registrar">
                 <a href="index.jsp"><input type="button" id="boton" value="Volver"></a>
             </form>
+            <h3><%=mensaje%></h3>
         </section>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

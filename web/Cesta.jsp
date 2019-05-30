@@ -17,8 +17,10 @@
             <div class="articulos">   
         <%
             ArrayList<String> cesta = (ArrayList<String>)session.getAttribute(("cesta"));
-            for (String producto : cesta) {
-                out.print("<tr><td>" + producto + "</td></tr>");
+            if (cesta!=null){
+                for (String producto : cesta) {
+                    out.print("<tr><td>" + producto + "</td></tr>");
+                }
             }
         %>
         </div>

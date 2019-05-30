@@ -107,7 +107,7 @@ public class ProductosTest {
      //Prueba 4 quiero probar el validar administrador, el usuario
      
      @Test
-     public void testValidarAdmintrador() {
+     public void testValidarAdmintrador(){
         ValidarAdministrador va = null;
         try {
             va = new ValidarAdministrador();

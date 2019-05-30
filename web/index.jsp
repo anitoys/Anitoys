@@ -13,7 +13,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Anitys PRUEBA</title>
+        <title>Anitoys </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
               crossorigin="anonymous">
         <link rel="stylesheet" href="css/plantilla-boostrap.css">
@@ -51,9 +51,6 @@
                 </div> 
             </div> 
         </div>
-
-
-
 
         <div class="container-fluid"> 
             <nav class="navbar justify-content-center navbar-expand-lg navbar-expand-md sticky-top navbar-light colorbarra backgroundcolorbarra " >
@@ -139,9 +136,6 @@
             <p id="oferta"> ! Nuestras ofertas del mes ¡ </p>
         </div>
 
-
-
-
         <!-- LAS CARS -->
         <div class="container-fluid">
             <div class="card-deck pt-5">
@@ -193,15 +187,7 @@
             </div>
         </div>
 
-
-        <div class="container-fluid" >
-            <p></p>
-        </div>
-
-
-        <!--FOOTER Fabiola-->
         <footer class="container-fluid" >
-
            
                 <div class=" row justify-content-center align-items-center">
                     <div class="col-12 col-md-4 pt-5 pb-5 ">
@@ -212,8 +198,7 @@
                             Debes elegir  el alimento adecuado para su edad, que el mismo contenga todos los nutrientes 
                             y vitaminas necesarios, y consulta las cantidades que debes darle.</p>
                     </div>
-                </div>
-          
+                </div>         
            
                 <div class="row align-items-start">    
                     <div class="col-12 col-md-6 col-lg-3">

@@ -106,7 +106,7 @@
             <div  class="row" id="mostrar">
                 <div class="col-3">
                     <div class="card">
-                        <img src="<%=producto.getString("foto")%>"> 
+                        <img src="/Anitoys/<%=producto.getString("foto")%>"> 
                         <div class="card-body">
                             <p><strong><%=producto.getString("Nombre")%></strong></p>
                             <p class="card-text"><%=producto.getString("Descripcion")%></p>

@@ -106,24 +106,7 @@ public class ProductosTest {
      
      //Prueba 4 quiero probar el validar administrador, el usuario
      
-     @Test
-     public void testValidarAdmintrador(){
-        ValidarAdministrador va = null;
-        try {
-            va = new ValidarAdministrador();
-            ResultSet rs = va.getUsuario();
-        } catch (Exception e) {
-            fail("Error de base de datos");
-        } finally {
-            try {
-                if (va != null) {
-                    va.cerrarConexion();
-                }
-            } catch (SQLException ex) {
-                fail("Error de base datos al cerrar");
-            }
-        }
-    }
+    
 }
 
 

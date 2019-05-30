@@ -29,23 +29,22 @@
 
             <div id="iconos" class=" row col">
                 <div class="row text-right ">
-                    <input id="search" class="col-5" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
+                    <input id="search" class="col-12 col-sm-6 col-md" type="text" name="q" value="" placeholder="¿Qué producto estás buscando…?" 
                            class="input-text search-form-trigger "   role="combobox" aria-haspopup="false" 
                            aria-autocomplete="both" autocomplete="off" text-right> 
-                    <div class="col text-right icon"  >
+                    <div class="col-12 col-sm-6 col-md text-right icon" >
                         <a href="IngresoAdmin.jsp">
                         <img src="imagenes/img_index/Adminsitrar2.png" width="40px"  alt="">
-                        <p class="colorP font-weight-bold"  >Adminstrador</p>
-                        <!--aqui el <a href-->
+                        <p class="colorP font-weight-bold" >Adminstrador</p>               
                     </div> 
-                    <div class="col text-right icon" >
+                    <div class="col-12 col-sm-6 col-md text-right icon" >
                         <a href="RegistroCliente.jsp">
                             <img src="imagenes/img_index/iconMiCuenta2.png" width="40px" alt="">
                             <p class="font-italic colorP font-weight-bold">Mi cuenta</p>
                         </a>
                         
                     </div> 
-                    <div class="col text-right icon" class="">      
+                    <div class="col-12 col-sm-6 col-md  text-right icon" class="">      
                         <a href="Cesta.jsp"><img src="imagenes/img_index/cesta2.png" width="40px" alt=""></a>                      
                         <p class="font-italic colorP font-weight-bold">Cesta</p>
                     </div> 
@@ -113,16 +112,16 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="imagenes/img_index/carruselPerros.jpg" class="d-block w-100"data-interval="100" alt="...">
+                        <img src="imagenes/img_index/2carruselPerros.jpg" class="d-block w-100"data-interval="100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="imagenes/img_index/carruselgatos1.jpg" class="d-block w-100" data-interval="100" alt="...">
+                        <img src="imagenes/img_index/2carruselgatos1.jpg" class="d-block w-100" data-interval="100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="imagenes/img_index/pajaro2.jpg" class="d-block w-100"  data-interval="100" alt="...">
+                        <img src="imagenes/img_index/2carruselpajaro2.jpg" class="d-block w-100"  data-interval="100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="imagenes/img_index/carruselpeces1.jpg" class="d-block w-100"  data-interval="100"  alt="...">
+                        <img src="imagenes/img_index/2carruselpeces1.jpg" class="d-block w-100"  data-interval="100"  alt="...">
                     </div> 
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -219,7 +218,7 @@
                 <div class="row align-items-start">    
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="lista">
-                            <h4>Secciones</h4>
+                           <!-- <h4>Secciones</h4>-->
                             <a href="index.jsp">Inicio</a><br>
                             <a href="contacto.html">Localización y contacto</a><br>
                             <a href="RegistroCliente.jsp">Registro</a><br>
@@ -232,7 +231,7 @@
 
                     <div class="col-12 col-md-6 col-lg-3">
                         <div class="metodo">
-                            <h4>Metodos de pago</h4>
+                           <!-- <h4>Metodos de pago</h4>-->
                             <img src="imagenes/img_index/metodos.png">
                         </div>
                     </div>

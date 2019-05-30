@@ -16,6 +16,7 @@
 
     </head>
     <body>
+        
         <div class="container fluid">
         <%
             while (producto.next()) {

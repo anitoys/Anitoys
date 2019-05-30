@@ -76,23 +76,22 @@ input[type="checkbox"]{
     color: darkmagenta;
     border:2px solid darkmagenta;
 }
-.row{
-    
-    margin: 20px;
-}
+
 .card{
-    width: 200px;  
+    width: 210px;  
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     border-radius: 20px;
     font-family: arial;
+
+
 }
 
 .card p{
     margin: 0;
 }
 .card img{
-    width: 120px;
+    width: 100px;
     display: box;
     margin:auto;
 }
@@ -111,10 +110,6 @@ input[type="checkbox"]{
     font-family: arial;
 }
 
-.container{
-   
-
-}
 .cestacompra{
     text-align: center;
     background-color: #ACF8FD;
@@ -131,4 +126,16 @@ input[type="checkbox"]{
   border-style:double;
   margin: 10px;
   color: black;
+}
+.row{
+    float:left;
+    margin: 20px;
+    width: 250px;
+    background-color: #ACF8FD;
+    text-align: center;
+    color: darkmagenta;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 31px 167px 0px rgba(94,32,94,1);
+    -moz-box-shadow: 0px 31px 167px 0px rgba(94,32,94,1);
+    box-shadow: 0px 31px 167px 0px rgba(94,32,94,1);
 }
